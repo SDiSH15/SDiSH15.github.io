@@ -3,25 +3,39 @@
 <head>
     <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
     <title>Как устанавливать моды в майнкрафт?</title>
     <meta charset="utf-8">
     <meta name="description" lang = "ru" content="Привет!!! Надоел обычный майнкрафт??? Хочется научиться устанавливать моды в майнкрафт??? Тогда ты пришёл по адресу!)">
     <meta name="author" content="SDiSH">
     <meta name="keywords" content="моды на майнкрафт,как устанавливать моды на майнкрафт,как устанавливать моды в майнкрафт,как устанавливать моды на minecraft,как устанавливать моды в minecraft,моды,майнкрафт,minecraft">
     <meta name="robots" content="index, follow">
+    <style>
+ .or {
+  color:#fa8e47;
+  font-size: 150%;
+  }
+  .b {
+  color: blue;
+  }
+  .g {
+  color: green;
+  font-size: 100%;
+  }
+  </style>
     
           
 </head>
     
-<body background="data:image/jpeg;base64,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">
-    <h1 class="animated mov2"><strong>Что такое <em>моды</em>?</strong></h1>
+<body>
+    <h1><strong><span class="or">Что такое <em>моды</em>?</strong></h1>
     <p align="justify">Если кто-то не знал или забыл, что такое <em>моды</em>, то я напомню, что <em>моды</em> - это модификации к игре, моды есть не только в <em>майнкрафт</em>, но и в других играх, например: <u>The Elder Scrolls V: Skyrim.</u></p>
     <p align="justify">В майнкрафте есть множество <em>модов</em>, есть например <em>моды</em> на оружие, <em>моды</em> на машины и прочие транспортные средства, <em>моды</em> на интерьер, <em>моды</em> на новые локации, <em>моды</em> на новые вещи, <em>моды</em> на новых боссов и множество других <em>модов</em>.</p>
     <p align="justify">Вот пример <em>модов</em> в <em>майнкрафт</em>: </p> 
-        <p><img class="animated mov" src="https://pe-world.ru/uploads/posts/2018-06/1529134141_furnicraft-2-min.jpg" alt="Пример мода в майнкрафт" width="400"></p>
+        <p><img src="https://pe-world.ru/uploads/posts/2018-06/1529134141_furnicraft-2-min.jpg" alt="Пример мода в майнкрафт" width="400"></p>
     <p>Также вам следует знать, что <em>моды</em> выпускаются сторонними разработчиками.</p>
-    <hr size="2" width="70%" align="center" noshade>
-    <h1><strong>Как устанавливать <em>моды</em>?</strong></h1>
+    <hr color="#239bc7" size="2" width="70%" align="center" noshade>
+    <h1><strong><span class="or">Как устанавливать <em>моды</em>?</span></strong></h1>
     <p>Приступим к установке. Собственно, для установки <em>модов</em> на <em>майнкрафт</em>, вам потребуется сам <em>майнкрафт</em> и <em>моды</em> к нему. <em>Майнкрафт</em> и <em>моды</em> можно скачать бесплатно по ссылке ниже. Также вам понадобится установить версию <em>майнкрафта</em> forge, в моём случае это forge 1.12.2, т.к. я использую моды версии 1.12.2, скачать версию forge 1.12.2 вы также сможете скачать по ссылке ниже.</p>
     <p><a target="_blank" href=https://tlauncher.org>Скачать <em>майнкрафт</em> можно здесь</a></p>
     <p><a target="_blank" href=https://minecraft-inside.ru/mods>Скачать <em>моды</em> можно здесь</a></p>
@@ -45,10 +59,10 @@
     <p>Теперь выходим из папки versions и ищем папку mods, она будет выглядет у вас вот так:</p>
     <p><img class="animated mov" src="img/Скриншот 18-02-2020 14_48_25.png"></p>
     <p>Заходим в неё и перетаскиваем вами установленный <em>мод</em>, в моём случае это useful railroads, в эту папку, должно получиться вот так:</p>
-    <p><img class="animated mov" src="img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2018-02-2020%2014_55_59.png"></p>
+    <p><img src="img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2018-02-2020%2014_55_59.png"></p>
     <p>Всё, готово!</p>
-    <hr size="2" width="70%" align="center" noshade>
-    <h1><strong>А как же запустить <em>майнкрафт</em> с <em>модами</em>?</strong></h1>
+    <hr color="#239bc7" size="2" width="70%" align="center" noshade>
+    <h1><strong><span class="or">А как же запустить <em>майнкрафт</em> с <em>модами</em>?</span></strong></h1>
     <p>Здесь всё ещё проще, заходите в ваш лаунчер, в версиях указываете вашу версию forge, запускаете, наслаждаетесь игрой с модами!!!</p>
     <p>Если всё таки остались какие-то вопросы, то пиши сюда:</p>
     <p><a href=https://vk.com/sdish>Написать</a></p>
